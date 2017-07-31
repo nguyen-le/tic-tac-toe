@@ -1,5 +1,5 @@
-import Player, {PlayerNumber} from '../models/player'
 import GameStore from '../store/game-store'
+import Player, {PlayerNumber} from '../models/player'
 
 
 interface GameOverData {

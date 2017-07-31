@@ -2,6 +2,7 @@ import {Component} from 'react'
 import GameService from '../service/game-service'
 import GameStore from '../store/game-store'
 
+
 interface SquareProps {
     rowNum: number,
     colNum: number,

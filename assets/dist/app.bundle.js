@@ -4687,8 +4687,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var store_1 = __webpack_require__(188);
 var player_1 = __webpack_require__(83);
+var store_1 = __webpack_require__(188);
 var GameStore = (function (_super) {
     __extends(GameStore, _super);
     function GameStore() {
@@ -9864,8 +9864,8 @@ exports["default"] = Player;
 "use strict";
 
 exports.__esModule = true;
-var player_1 = __webpack_require__(83);
 var game_store_1 = __webpack_require__(32);
+var player_1 = __webpack_require__(83);
 var GameService = (function () {
     function GameService() {
     }
@@ -22638,8 +22638,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var react_1 = __webpack_require__(50);
-var game_store_1 = __webpack_require__(32);
 var game_service_1 = __webpack_require__(84);
+var game_store_1 = __webpack_require__(32);
 var row_1 = __webpack_require__(189);
 var Game = (function (_super) {
     __extends(Game, _super);
@@ -22744,8 +22744,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var react_1 = __webpack_require__(50);
-var square_1 = __webpack_require__(190);
 var game_store_1 = __webpack_require__(32);
+var square_1 = __webpack_require__(190);
 var Row = (function (_super) {
     __extends(Row, _super);
     function Row() {

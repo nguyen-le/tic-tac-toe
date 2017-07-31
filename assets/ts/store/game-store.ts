@@ -1,5 +1,6 @@
-import Store from './store'
 import Player, {PlayerNumber} from '../models/player'
+import Store from './store'
+
 
 export class GameStore extends Store {
     private currentPlayer: Player

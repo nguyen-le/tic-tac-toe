@@ -1,6 +1,6 @@
 import {Component} from 'react'
-import GameStore from '../store/game-store'
 import GameService from '../service/game-service'
+import GameStore from '../store/game-store'
 import Player, {PlayerNumber} from '../models/player'
 import Row from './row'
 

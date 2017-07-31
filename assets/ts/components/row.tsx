@@ -1,6 +1,6 @@
 import {Component} from 'react'
-import Square from './square'
 import GameStore from '../store/game-store'
+import Square from './square'
 
 
 interface RowProps {
