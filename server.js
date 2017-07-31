@@ -1,12 +1,27 @@
 const Hapi = require('hapi')
-const HapiReact = require('hapi-react')()
 const HapiRouter = require('hapi-router')
 const Vision = require('vision')
+const Inert = require('inert')
 
-const server = new Hapi.Server()
+const server = new Hapi.Server({
+    connections: {
+        routes: {
+            files: {
+                relativeTo: `${__dirname}/assets/`
+            }
+        }
+    }
+})
 server.connection({
   host: 'localhost',
   port: 8000
+})
+
+// register static file handler
+server.register(Inert, (err) => {
+    if (err) {
+        throw err
+    }
 })
 
 // register template engine
@@ -16,13 +31,12 @@ server.register(Vision, (err) => {
     }
 
     server.views({
-        defaultExtension: 'jsx',
+        defaultExtension: 'pug',
         engines: {
-            jsx: HapiReact,
-            js: HapiReact
+            pug: require('pug'),
         },
         relativeTo: __dirname,
-        path: 'views'
+        path: 'assets/views/'
     })
 })
 

@@ -4,12 +4,19 @@
   "main": "server.js",
   "license": "MIT",
   "dependencies": {
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
     "glob": "^7.1.2",
     "hapi": "^16.5.0",
     "hapi-react": "^5.0.1",
     "hapi-router": "^3.5.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "vision": "^4.1.1"
+    "inert": "^4.2.1",
+    "pug": "^2.0.0-rc.2",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "vision": "^4.1.1",
+    "webpack": "^3.4.1"
   }
 }
